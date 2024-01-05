@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased; /* Para navegadores WebKit como Chrome y Safari */
+  -moz-osx-font-smoothing: grayscale; /* Para Firefox en macOS */
+}
